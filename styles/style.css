@@ -209,12 +209,14 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
+  min-height:563px ;
   padding: 50px 40px;
   color: #fff;
   background-color: #a7a7a7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  justify-content: space-between;
 }
 
 .card_type_film {
@@ -229,6 +231,8 @@
   background-image: url("../images/card-lot-03.jpg");
 }
 
+
+
 .card__title {
   font-weight: 700;
   font-size: 22px;
@@ -238,7 +242,6 @@
 }
 
 .card__text {
-  margin-top: auto; /* если установить justify-content: space-between;, то текст 1 карточки уходит наверх, по макету он должен быть внизу */
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -248,7 +251,6 @@
   display: grid;
   grid-template-columns: repeat(1, 358px 693px);
   grid-template-rows: repeat(2 200px);
-  margin-left: 70px;
   margin-right: 24px;
   margin-left: 27px;
 }
